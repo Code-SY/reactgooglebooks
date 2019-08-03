@@ -1,0 +1,120 @@
+body {
+  background-color: rgba(129, 214, 247, 0.858);
+  background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/cW5lDBG/videoblocks-green-holiday-background-with-animated-colorful-squares-in-sides-and-with-copyspace-in-center_hlf0xiing_thumbnail-full01.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.brand-title {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 1.5rem;
+}
+
+.heading-title {
+  font-family: 'Nunito', sans-serif;
+  color: rgb(11, 71, 11);
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 1.3rem;
+}
+
+.heading-subtitle {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.25em;
+  font-size: 0.9rem;
+}
+
+p,
+.p-article {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  font-size: 0.97rem;
+}
+
+.hero-is-fullheight {
+  min-height: 100vh;
+}
+
+.hero-head {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.hero-body {
+  align-items: center;
+  display: flex;
+  background-color: rgba(254, 254, 254, 0.762);
+}
+
+.hero-foot {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.card-content {
+  padding: 1.5rem;
+  background-color: rgba(85, 167, 92, 0.324);
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.5), 0 0 0 1px rgba(10, 10, 10, 0.2);
+  color: #0f0d9c;
+  max-width: 100%;
+  position: relative;
+}
+
+.save-button,
+.delete-button,
+.view-button {
+  background-color: rgba(116, 206, 241, 0.502);
+  color: #040c75;
+  cursor: pointer;
+  justify-content: center;
+  padding-bottom: calc(0.375em - 1px);
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  padding-top: calc(0.375em - 1px);
+  text-align: center;
+  white-space: nowrap;
+  position: relative;
+  vertical-align: top;
+  line-height: 1.5;
+  align-items: center;
+  border: 1px solid #6fc0f3;
+  border-radius: 4px;
+  box-shadow: none;
+  display: inline-flex;
+  font-size: 1rem;
+  height: 2.25em;
+  user-select: none;
+  text-decoration: none;
+}
+
+.image.is-128xauto {
+  margin-left: auto;
+  margin-right: auto;
+  width: 128px;
+  height: auto;
+}
+
+.mockup-content {
+  height: 370px;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: rgba(254, 254, 254, 0.618);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
